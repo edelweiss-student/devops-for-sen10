@@ -1,0 +1,32 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f4f6fb;
+  color: #1c2333;
+  margin: 0;
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+}
+
+main {
+  background: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  max-width: 480px;
+  text-align: center;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.6rem 1.2rem;
+  border: 0;
+  border-radius: 8px;
+  background: #3b6cf6;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2c55cc;
+}
