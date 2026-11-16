@@ -1,6 +1,8 @@
 const button = document.getElementById('counter-btn');
 const info = document.getElementById('deploy-info');
-let count = 0
+let count = 0;
+
+#added the missing semicolon
 
 button.addEventListener('click', () => {
   count += 1;
